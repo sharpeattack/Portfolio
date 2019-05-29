@@ -108,6 +108,7 @@ textarea {
 nav {
     width: 100vw;
     position: fixed;
+    top: 15px;
 }
 .navigation {
     list-style:none;
@@ -117,17 +118,58 @@ nav {
 }
 .navigation li {
     display:inline;
+    padding: 0 8vw;
+
 }
 .navigation a {
     display:inline-block;
-    padding:10px;
+    text-decoration: none;
+}
+.navigation a:hover {
+    border-bottom: 2px solid black;
+}
+
+/*  Typographic Styles */
+
+h1 { 
+  font-size: 10.5vw;
+  text-align: center;
+  font-family: 'Zangezi', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 11.75vw;
+  width: 60vw;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 154px;
+  color: #ff0000;
+  text-decoration: none;
+  z-index:  3;
+
+  font-family: 'Zangezi', sans-serif;
+  font-weight: normal;
+}
+
+.tagline {
+  text-align: center;
 }
 
 
 
 
+/* Layout */
+
+.hero {
+  padding: 4.5% 20vw 0 20vw;
+
+}
+
+
  .project {
-    background-color: #fff;
+    background-color: #ff0000;
     padding: 0 0;
     padding:  12% 0 10% 0 ;
   } 
@@ -147,18 +189,14 @@ nav {
     overflow: hidden;
   }
   
-  h2 {
-    text-align: center;
-    font-size: 154px;
-    color: #ff0000;
-    text-decoration: none;
-    z-index:  3;
-  }
+
   
   span {
     text-align: center;
     font-size:  4.2rem;
     line-height:  154px;
+    font-family: 'Syne-Extra', sans-serif;
+
   
   /*   padding: 17vh 0 0 0; */
        
@@ -182,6 +220,7 @@ nav {
     span { font-size: 3.4rem;
       line-height:  3.4rem;
     }
+    
   }
   
    

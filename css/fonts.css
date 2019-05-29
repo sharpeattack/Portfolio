@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Syne-Extra';
+    src: url('../fonts/syne-extra.woff2') format('woff2'),
+         url('../fonts/syne-extra.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Zangezi';
+    font-weight: normal;
+    src: url('../fonts/zangezi03.woff') format('woff'), 
+         url('../fonts/zangezi03.woff2') format('woff2');
+}
+
