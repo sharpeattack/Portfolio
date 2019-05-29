@@ -1,0 +1,38 @@
+
+  
+  @keyframes moveLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-3000vw);
+    }
+  }
+  
+
+  .marquee-left {
+    white-space: nowrap;
+    display: block;
+    position: relative;
+  
+    animation: moveLeft 350s infinite; 
+  }
+
+
+    
+  /* @keyframes moveRight {
+    0% {
+      transform: translateX(-150vw);
+    }
+    100% {
+      transform: translateX(3000vw);
+    }
+  } */
+  
+  
+  /* .marquee-right {
+    white-space: nowrap;
+    position: relative;
+      display: block;
+    animation: moveRight 350s infinite; 
+  } */

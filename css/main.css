@@ -143,9 +143,13 @@ h1 {
 
 
 h2 {
+  margin: 0 ;
+  padding: 0 ;
   text-align: center;
-  font-size: 154px;
-  color: #ff0000;
+  font-size: 10.5vw;
+  line-height: 10.5vw;
+
+  color: #000;
   text-decoration: none;
   z-index:  3;
 
@@ -168,10 +172,9 @@ h2 {
 }
 
 
- .project {
+ .projects {
     background-color: #ff0000;
-    padding: 0 0;
-    padding:  12% 0 10% 0 ;
+    padding:  6% 0 ;
   } 
 
   .grid {
@@ -185,21 +188,25 @@ h2 {
   }
   
   .card {
+    height: auto;
     width: 100%;
     overflow: hidden;
   }
   
-
+  .marquee {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    
+  }
   
   span {
     text-align: center;
-    font-size:  4.2rem;
-    line-height:  154px;
-    font-family: 'Syne-Extra', sans-serif;
+    font-size:  8vw;
+    line-height: 8vw;
 
-  
-  /*   padding: 17vh 0 0 0; */
-       
+    font-family: 'Syne-Extra', sans-serif;
+      
     color: #2c9944;
     
   }
@@ -210,7 +217,7 @@ h2 {
   } */
   
   
-  /*  Mobile styles */
+   /* Mobile styles
   @media (max-width: 640px) {
     
     section { padding: 28% 0 25% 0;}
@@ -220,10 +227,10 @@ h2 {
     span { font-size: 3.4rem;
       line-height:  3.4rem;
     }
-    
+
   }
   
-   
+    */
 
 
 
