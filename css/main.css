@@ -103,6 +103,95 @@ textarea {
    ========================================================================== */
 
 
+/* Nav Setup */
+
+nav {
+    width: 100vw;
+    position: fixed;
+}
+.navigation {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.navigation li {
+    display:inline;
+}
+.navigation a {
+    display:inline-block;
+    padding:10px;
+}
+
+
+
+
+ .project {
+    background-color: #fff;
+    padding: 0 0;
+    padding:  12% 0 10% 0 ;
+  } 
+
+  .grid {
+    display: grid;
+    place-items: center;
+  }
+  
+  .full-area {
+    grid-area: 1/1;
+    overflow: hidden;
+  }
+  
+  .card {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 154px;
+    color: #ff0000;
+    text-decoration: none;
+    z-index:  3;
+  }
+  
+  span {
+    text-align: center;
+    font-size:  4.2rem;
+    line-height:  154px;
+  
+  /*   padding: 17vh 0 0 0; */
+       
+    color: #2c9944;
+    
+  }
+  
+  /* 
+  .two-lines {
+    padding:  10% 0;
+  } */
+  
+  
+  /*  Mobile styles */
+  @media (max-width: 640px) {
+    
+    section { padding: 28% 0 25% 0;}
+    
+    h2 { font-size: 5rem; }
+    
+    span { font-size: 3.4rem;
+      line-height:  3.4rem;
+    }
+  }
+  
+   
+
+
+
+
+
+
+
 
 
 
