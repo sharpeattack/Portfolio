@@ -141,6 +141,8 @@ h1 {
   text-transform: uppercase;
   line-height: 11.75vw;
   width: 60vw;
+
+  
 }
 
 
@@ -151,7 +153,7 @@ h2 {
   font-size: 12vw;
   line-height: 12vw;
 
-  color: #000;
+  color: #fff;
   text-decoration: none;
   z-index:  3;
 
@@ -172,7 +174,6 @@ h2 {
   padding: 4.5% 20vw 2.5vw 20vw;
 
 }
-
 
  .projects {
     background-color: #FF1D53;
@@ -204,16 +205,18 @@ h2 {
   
   span {
     text-align: center;
-    font-size:  10vw;
-    line-height: 10vw;
+    font-size:  6vw;
+    line-height: 6vw;
 
     font-family: 'Syne-Extra', sans-serif;
-      
     color: #6D1212;
     
+    padding-top: 2.5%;
   }
   
-
+.difference {
+   mix-blend-mode: difference;
+ }
   
 
 
@@ -242,8 +245,8 @@ h2 {
     }
 
     span {
-      font-size:  12vw;
-      line-height: 16vw;
+      font-size:  9vw;
+      line-height: 14vw;
   
       
 
