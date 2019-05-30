@@ -96,6 +96,8 @@ textarea {
 }
 
 
+p { margin: 0;
+    padding: 0;}
 
 
  /* ==========================================================================
@@ -108,7 +110,7 @@ textarea {
 nav {
     width: 100vw;
     position: fixed;
-    top: 15px;
+    top: 3vh;
 }
 .navigation {
     list-style:none;
@@ -146,8 +148,8 @@ h2 {
   margin: 0 ;
   padding: 0 ;
   text-align: center;
-  font-size: 10.5vw;
-  line-height: 10.5vw;
+  font-size: 12vw;
+  line-height: 12vw;
 
   color: #000;
   text-decoration: none;
@@ -167,14 +169,14 @@ h2 {
 /* Layout */
 
 .hero {
-  padding: 4.5% 20vw 0 20vw;
+  padding: 4.5% 20vw 2.5vw 20vw;
 
 }
 
 
  .projects {
-    background-color: #ff0000;
-    padding:  6% 0 ;
+    background-color: #FF1D53;
+    padding:  4% 0 2.5% 0 ;
   } 
 
   .grid {
@@ -202,35 +204,106 @@ h2 {
   
   span {
     text-align: center;
-    font-size:  8vw;
-    line-height: 8vw;
+    font-size:  10vw;
+    line-height: 10vw;
 
     font-family: 'Syne-Extra', sans-serif;
       
-    color: #2c9944;
+    color: #6D1212;
     
   }
   
-  /* 
-  .two-lines {
-    padding:  10% 0;
-  } */
+
   
-  
-   /* Mobile styles
-  @media (max-width: 640px) {
+
+
+
+
+
+  @media (max-width: 1024px) {
+
+ 
+
+
+    h1 {
+      font-size: 11.5vw;
+      line-height: 13.5vw;
+      width: 60vw;
+      
+    }
+
+    h2 {
+      font-size: 20.5vw;
+      line-height: 20.5vw;
+    }
     
+    .projects {
+      padding: 8% 0 5% 0;
+    }
+
+    span {
+      font-size:  12vw;
+      line-height: 16vw;
+  
+      
+
+
+  }
+
+
+
+
+
+
+
+  
+   /* Mobile styles */
+
+  @media (max-width: 640px) {
+
+
+    .navigation li {
+      padding: 0px 10vw; }
+
+
+    .hero {
+      padding: 25% 0 10vw 0vw;
+    }
+
+    .projects {
+      padding: 20% 0 18% 0;
+    }
+
+    
+
+
+    h1 { 
+        width: 100vw;
+        font-size:  21vw;
+        line-height: 21vw; 
+      }
+
+    h2 {
+      font-size: 30.5vw;
+      line-height: 30.5vw;
+    }
+
+    span {
+      font-size:  21vw;
+      line-height: 24vw;
+
+/*     
     section { padding: 28% 0 25% 0;}
     
     h2 { font-size: 5rem; }
     
     span { font-size: 3.4rem;
       line-height:  3.4rem;
-    }
+    } */
 
   }
   
-    */
+   
 
 
 
