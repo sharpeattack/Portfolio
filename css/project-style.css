@@ -1,20 +1,32 @@
-.hmht h2 {
+  .the-grid h2 {
     color: #00E8DA;
     mix-blend-mode: difference;
   }
-  .hmht span {
+  .the-grid span {
     color: #FF0000;
     mix-blend-mode: difference;
   }
-  .hmht {
+  .the-grid {
     background-color: #0DD59F;  
   }
   
 
-  
-  .pedal h2 {
-    color: #00E8DA;
+  .hmht h2 {
+    color: #CAE51A;
     mix-blend-mode: difference;
+  }
+  .hmht span {
+    color: #FF8C22;
+    mix-blend-mode: difference;
+  }
+  .hmht {
+    background-color: #83E9FF;  
+  }
+  
+
+  .pedal h2 {
+    color: #FFEDC1;
+
   }
   .pedal span {
     color: #6D1212;
@@ -40,8 +52,6 @@
   }
 
 
-
-
   .salon63 h2 {
     color: #FFFFFF;
     
@@ -55,4 +65,16 @@
     background-color:  #212121;
   }
 
+  .farfetch h2 {
+    color: #3D0062;
+    
+  }
+  .farfetch span {
+    color: #FF005C;
+    mix-blend-mode: difference;
+  }
+  
+  .farfetch {
+    background-color:  #FFEAEA;
+  }
  
