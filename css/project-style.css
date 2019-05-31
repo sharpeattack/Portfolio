@@ -1,4 +1,19 @@
-  .the-grid h2 {
+ /*  Hover States */
+ .projects:hover {
+    background-color: #222;
+}
+.projects:hover h2 {
+    color: #fff;
+}
+.projects:hover span {
+    color: #fff;
+}
+
+
+
+/* Projects Styles */
+ 
+ .the-grid h2 {
     color: #00E8DA;
     mix-blend-mode: difference;
   }
@@ -28,14 +43,16 @@
     color: #FFEDC1;
 
   }
+
   .pedal span {
     color: #6D1212;
     mix-blend-mode: difference;
   }
+
   .pedal {
     background-color: #FF1D53;
   }
-  
+
 
 
   .local-hero h2 {
@@ -62,7 +79,7 @@
   }
   
   .salon63 {
-    background-color:  #212121;
+    background-color:  #210035;
   }
 
   .farfetch h2 {

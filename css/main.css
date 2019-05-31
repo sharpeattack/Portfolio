@@ -134,29 +134,24 @@ nav {
 
 
 /*  Typographic Styles */
-
 nav, a, li {
   font-family: 'GT America Light';
   
 }
 
-
  a, a:link, a:visited { 
   color: white;
- 
-  
 } 
 
-/* a:hover {
-  border-bottom: 2px solid #222;
-  
-} */
+a:hover {
+  border-bottom: 2px solid white;
+}
 
 
 
 p {font-family: 'GT America Light'; }
 
-span .bold {
+.bold {
   font-family: 'GT America Extended Bold';
 }
 
@@ -237,12 +232,11 @@ h2 {
   .projects span {
     text-align: center;
     font-size:  6vw;
-    line-height: 6vw;
+
 
     font-family: 'Syne-Extra', sans-serif;
     color: #6D1212;
-/*     
-    padding-top: 2.5%; */
+    padding-bottom: 2%;
   }
   
 
@@ -268,7 +262,7 @@ h2 {
 
     .projects span {
       font-size:  9vw;
-      line-height: 14vw;
+      
   }
 
 
@@ -287,7 +281,7 @@ h2 {
 
 
     .hero {
-      padding: 25% 0 10vw 0vw;
+      padding: 30vw 0 28vw 0vw;
     }
 
     .projects {
@@ -315,17 +309,10 @@ h2 {
     }
 
     .projects span {
-      font-size:  21vw;
-      line-height: 24vw;
+      font-size:  16vw;
+      
 
-/*     
-    section { padding: 28% 0 25% 0;}
-    
-    h2 { font-size: 5rem; }
-    
-    span { font-size: 3.4rem;
-      line-height:  3.4rem;
-    } */
+
 
   }
   
