@@ -5,8 +5,9 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-3000vw);
+      transform: translateX(-5000vw);
     }
+
   }
   
 
@@ -16,6 +17,8 @@
     position: relative;
   
     animation: moveLeft 160s infinite; 
+
+
   }
 
 

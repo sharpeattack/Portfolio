@@ -10,3 +10,21 @@
          url('../fonts/zangezi03.woff2') format('woff2');
 }
 
+
+@font-face {
+    font-family: 'GT America Light';
+    src: url('../fonts/GT-America-Standard-Light.woff') format('woff'), 
+         url('../fonts/GT-America-Standard-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GT America Extended Bold';
+    src: url('../fonts/GT-America-Extended-Bold.woff') format('woff'), 
+         url('../fonts/GT-America-Extended-Bold.woff2') format('woff2');
+}
+
+
+
+
+
+

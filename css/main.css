@@ -117,21 +117,48 @@ nav {
     margin:0;
     padding:0;
     text-align:center;
+    
 }
 .navigation li {
     display:inline;
     padding: 0 8vw;
+    
 
 }
 .navigation a {
     display:inline-block;
     text-decoration: none;
-}
-.navigation a:hover {
-    border-bottom: 2px solid black;
+    
 }
 
+
+
 /*  Typographic Styles */
+
+nav, a, li {
+  font-family: 'GT America Light';
+  
+}
+
+
+ a, a:link, a:visited { 
+  color: white;
+ 
+  
+} 
+
+/* a:hover {
+  border-bottom: 2px solid #222;
+  
+} */
+
+
+
+p {font-family: 'GT America Light'; }
+
+span .bold {
+  font-family: 'GT America Extended Bold';
+}
 
 h1 { 
   font-size: 10.5vw;
@@ -144,7 +171,6 @@ h1 {
 
   
 }
-
 
 h2 {
   margin: 0 ;
@@ -165,13 +191,16 @@ h2 {
   text-align: center;
 }
 
-
+.blend-mode {
+  mix-blend-mode: difference;
+}
 
 
 /* Layout */
 
 .hero {
   padding: 4.5% 20vw 2.5vw 20vw;
+  background-color: white;
 
 }
 
@@ -194,6 +223,8 @@ h2 {
     height: auto;
     width: 100%;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
   }
   
   .marquee {
@@ -203,24 +234,21 @@ h2 {
     
   }
   
-  span {
+  .projects span {
     text-align: center;
     font-size:  6vw;
     line-height: 6vw;
 
     font-family: 'Syne-Extra', sans-serif;
     color: #6D1212;
-    
-    padding-top: 2.5%;
+/*     
+    padding-top: 2.5%; */
   }
   
 
 
 
   @media (max-width: 1024px) {
-
- 
-
 
     h1 {
       font-size: 11.5vw;
@@ -238,11 +266,10 @@ h2 {
       padding: 8% 0 5% 0;
     }
 
-    span {
+    .projects span {
       font-size:  9vw;
       line-height: 14vw;
   }
-
 
 
 
@@ -256,7 +283,7 @@ h2 {
 
 
     .navigation li {
-      padding: 0px 10vw; }
+      padding: 0px 8vw; }
 
 
     .hero {
@@ -276,12 +303,18 @@ h2 {
         line-height: 21vw; 
       }
 
+
+    .small-title {
+      font-size: 22.5vw;
+    }
+
+      
     h2 {
       font-size: 30.5vw;
       line-height: 30.5vw;
     }
 
-    span {
+    .projects span {
       font-size:  21vw;
       line-height: 24vw;
 
