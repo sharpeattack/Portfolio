@@ -1,0 +1,58 @@
+.hmht h2 {
+    color: #00E8DA;
+    mix-blend-mode: difference;
+  }
+  .hmht span {
+    color: #FF0000;
+    mix-blend-mode: difference;
+  }
+  .hmht {
+    background-color: #0DD59F;  
+  }
+  
+
+  
+  .pedal h2 {
+    color: #00E8DA;
+    mix-blend-mode: difference;
+  }
+  .pedal span {
+    color: #6D1212;
+    mix-blend-mode: difference;
+  }
+  .pedal {
+    background-color: #FF1D53;
+  }
+  
+
+
+  .local-hero h2 {
+    color: #FF5959;
+    
+  }
+  .local-hero span {
+    color: #8A43FF;
+    mix-blend-mode: difference;
+  }
+  
+  .local-hero {
+    background-color:  #FDFF83;
+  }
+
+
+
+
+  .salon63 h2 {
+    color: #FFFFFF;
+    
+  }
+  .salon63 span {
+    color: #FF005C;
+    mix-blend-mode: difference;
+  }
+  
+  .salon63 {
+    background-color:  #212121;
+  }
+
+ 
