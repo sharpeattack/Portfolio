@@ -222,7 +222,7 @@ h2 {
     justify-content: center;
   }
   
-  .marquee {
+  .marquee-wrapper {
     position: absolute;
     width: 100%;
     overflow: hidden;
