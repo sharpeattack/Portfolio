@@ -29,12 +29,12 @@
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #39ff00;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #39ff00;
     text-shadow: none;
 }
 
@@ -111,6 +111,7 @@ nav {
     width: 100vw;
     position: fixed;
     top: 3vh;
+    z-index: 99999;
 }
 .navigation {
     list-style:none;
@@ -185,6 +186,10 @@ h2 {
 
   overflow-wrap: break-word;
   hyphens: auto;
+  -moz-hyphens:auto;
+  -ms-hyphens:auto;
+  -webkit-hyphens: auto;
+
 }
 
 .tagline {
@@ -198,11 +203,20 @@ h2 {
 
 /* Layout */
 
-.hero {
-  padding: 4.5% 20vw 2.5vw 20vw;
+.hero-section {
   background-color: white;
-
 }
+
+.hero-content {
+  padding: 4.5% 20vw 2.5vw 20vw;
+}
+
+/* .hero-section img {
+  overflow: hidden; 
+  position:  absolute;
+  transform:  translate(-50%, -50%) scale(0.25);
+} */
+
 
  .projects {
     background-color: #FF1D53;
@@ -253,6 +267,7 @@ h2 {
       font-size: 11.5vw;
       line-height: 13.5vw;
       width: 60vw;
+
       
     }
 
@@ -285,7 +300,7 @@ h2 {
       padding: 0px 8vw; }
 
 
-    .hero {
+    .hero-content {
       padding: 30vw 0 28vw 0vw;
     }
 
@@ -301,11 +316,6 @@ h2 {
         font-size:  21vw;
         line-height: 21vw; 
       }
-
-
-    .small-title {
-      font-size: 22.5vw;
-    }
 
       
     h2 {

@@ -14,3 +14,45 @@ function makeMarque() {
   }
 
   makeMarque();
+
+
+
+  // HERO Section Gallery
+
+
+  // const images = [
+  //   "../img/image-01.png","../img/image-02.png","../img/image-03.png","../img/image-04.png",
+  //   "../img/image-05.png","../img/image-06.png","../img/image-07.png","../img/image-08.png"
+  // ]
+  
+  // let i = 0
+  
+  
+  // var hero = document.getElementsByClassName('hero-section')[0];
+  // var imgArea = document.getElementsByClassName('hero-images') [0];
+
+  // function placeImage(x,y) {
+  //   const nextImage = images[i]
+    
+  //   const img = document.createElement("img")
+  //   img.setAttribute("src", nextImage)
+  //   img.style.left = x + "px"
+  //   img.style.top = y + "px"
+    
+  //  imgArea.appendChild(img)
+    
+  //   i = i + 1
+  //   if (i >= images.length) {
+  //     i = 0
+  //   }
+  // }
+  
+  // hero.addEventListener("click", function(event) {
+  //   event.preventDefault()
+  //   placeImage(event.pageX,event.pageY)
+  // })
+  
+  // hero.addEventListener("touchend", function(event) {
+  //   event.preventDefault()
+  //   placeImage(event.pageX,event.pageY)
+  // })
