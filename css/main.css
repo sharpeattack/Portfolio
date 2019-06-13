@@ -140,6 +140,10 @@ nav, a, li {
   
 }
 
+a {
+  text-decoration: none;
+}
+
  a, a:link, a:visited { 
   color: white;
 } 
@@ -190,6 +194,12 @@ h2 {
   -ms-hyphens:auto;
   -webkit-hyphens: auto;
 
+}
+h3 {
+  font-family: 'GT America Extended Bold', sans-serif;
+  font-weight: normal;
+  font-size: 26px;
+  letter-spacing: -0.2px;
 }
 
 .tagline {
@@ -274,6 +284,7 @@ h2 {
     h2 {
       font-size: 20.5vw;
       line-height: 20.5vw;
+      text-decoration: none;
     }
     
     .projects {
