@@ -1,3 +1,21 @@
+// Tagline stuff
+const taglines = [
+  "Thought Leader",
+  "Assistant to the regional principle designer",
+  "Social Media Influencer",
+  "A Bad developer",
+  "Senior Principle Headmaster of Experience",
+  "A not famous Youtuber",
+  "A designer without a podcast",
+  "I ship things with little to no impact",
+  "My work transforms lives...",
+  "Blockchain Billionaire"
+];
+
+const randomItem = taglines[Math.floor(Math.random()*taglines.length)];
+document.querySelector(".tagline").innerHTML = randomItem;
+
+
 function makeMarque() {
     // get all elements with a class name
     const marquee = document.getElementsByClassName('marquee');
@@ -16,7 +34,6 @@ function makeMarque() {
   }
 
   makeMarque();
-
 
 
   // HERO Section Gallery
