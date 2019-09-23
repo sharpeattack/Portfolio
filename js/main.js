@@ -23,8 +23,8 @@ function makeMarque() {
     // convert 'html array' into a JS array
     // 'map' over each item in the array
     Array.from(marquee).map((span, i)=>{
-         // span.style.fontSize = Math.random(i*100) * 100 + 'px'
-          // span.style.color = 'rgba(' + Math.random(i) * 255 + '255, 255, 1)'
+      // span.style.fontSize = Math.random(i*100) * 100 + 'px'
+      // span.style.color = 'rgba(' + Math.random(i) * 255 + '255, 255, 1)'
       i % 2 ? span.className = "marquee-right" : span.className = "marquee-left";
       let title  = span.textContent;
       let marqueeText = new Array(50).fill(title).join(' — ')
@@ -34,7 +34,6 @@ function makeMarque() {
   }
 
   makeMarque();
-
 
   // HERO Section Gallery
 
