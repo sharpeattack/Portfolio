@@ -214,18 +214,26 @@ h3 {
 /* Layout */
 
 .hero-section {
+  padding-top: 6vh;
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30vh;
+  width:  100vw;
+  overflow: hidden;
 }
 
 .hero-content {
-  padding: 5.5% 20vw 2.5vw 20vw;
+    padding-bottom: 4vw;
+  
 }
 
-/* .hero-section img {
-  overflow: hidden; 
-  position:  absolute;
-  transform:  translate(-50%, -50%) scale(0.25);
-} */
+.hero {
+  width: 800px;
+  margin: auto;
+}
+
 
 
  .projects {
@@ -312,7 +320,7 @@ h3 {
 
 
     .hero-content {
-      padding: 32vw 0 28vw 0vw;
+      padding-bottom: 8vw ;
     }
 
     .projects {
