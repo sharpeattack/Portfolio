@@ -220,6 +220,7 @@ h3 {
   align-items: center;
   justify-content: center;
   min-height: 30vh;
+  width: 100%;
 
   
 }
@@ -232,11 +233,11 @@ h3 {
 canvas {
   display: block;
   overflow: hidden;
+  height: 50vh;
 }
 
 .hero {
   position: absolute;
-  overflow: hidden;
 }
 
 
@@ -323,7 +324,9 @@ canvas {
     .navigation li {
       padding: 0px 8vw; }
 
-
+.hero-section {
+  height: 50vh;
+}
     .hero-content {
       padding-bottom: 8vw ;
     }
