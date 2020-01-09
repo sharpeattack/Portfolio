@@ -11,8 +11,8 @@ section.innerHTML = ""
 
 //pixi set up
 const app = new PIXI.Application({
-  width: 752,
-  height: 600,
+	autoResize: true,
+  resolution: devicePixelRatio,
   transparent: true
 });
 //add pixi to application
@@ -43,7 +43,7 @@ section.appendChild(app.view)
     image.anchor.y = 0.5
     
     displacementImage.width = 1200
-    displacementImage.height = 1200
+    displacementImage.height = 600
     displacementImage.texture.baseTexture.wrapMode = PIXI.WRAP_MODES.REPEAT
     
     image.filters=[
@@ -102,6 +102,20 @@ section.appendChild(app.view)
   
 })
 
+// Listen for window resize events
+window.addEventListener('resize', resize);
+
+// Resize function window
+function resize() {
+
+	// Get the p
+	const parent = app.view.parentNode;
+   
+	// Resize the renderer
+	app.renderer.resize(parent.clientWidth, parent.clientHeight);
+}
+
+resize();
 
 
 
