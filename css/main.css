@@ -326,6 +326,7 @@ canvas {
 
 .hero-section {
   height: 50vh;
+  padding-top:10vh;
 }
     .hero-content {
       padding-bottom: 8vw ;
