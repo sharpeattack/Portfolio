@@ -486,7 +486,7 @@ canvas {
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-   @media print {
+@media print {
     *,
     *:before,
     *:after {
@@ -555,5 +555,3 @@ canvas {
         page-break-after: avoid;
     }
 }
-
-
