@@ -167,11 +167,6 @@ padding-top: 15%;}
   }
 
 
-
-
-
-
-
   .local-hero h2 {
     color: #FF5959;
     
@@ -210,5 +205,19 @@ padding-top: 15%;}
   
   .farfetch {
     background-color:  #FFEAEA;
+  }
+ 
+
+  .thehogan h2 {
+    color: #000;
+    
+  }
+  .thehogan span {
+    color: #78DA44;
+    mix-blend-mode: difference;
+  }
+  
+  .thehogan {
+    background-color:  #fff;
   }
  

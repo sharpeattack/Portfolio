@@ -35,15 +35,15 @@ section.appendChild(app.view)
     
     image.x =  376
     image.y = 300
-    image.width = 752
+    image.width = 752 
     image.height = 600
     image.interactive = true
     
     image.anchor.x = 0.5
     image.anchor.y = 0.5
     
-    displacementImage.width = 1200
-    displacementImage.height = 600
+    displacementImage.width = 2400
+    displacementImage.height = 1200
     displacementImage.texture.baseTexture.wrapMode = PIXI.WRAP_MODES.REPEAT
     
     image.filters=[

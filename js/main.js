@@ -2,14 +2,15 @@
 const taglines = [
   "Thought Leader",
   "Assistant to the regional principle designer",
-  "Social Media Influencer",
-  "A Bad developer",
+  "Social Media Influenza",
   "Senior Principle Headmaster of Experience",
-  "A not famous Youtuber",
   "A designer without a podcast",
-  "I ship things with little to no impact",
   "My work transforms lives...",
-  "Blockchain Billionaire"
+  "Blockchain Billionaire",
+  "A universe-centric designer",
+  "Follow me on Tiktok",
+  "Working at the intersection of [INSERT TERM] and [INSERT TERM]"
+
 ];
 
 const randomItem = taglines[Math.floor(Math.random()*taglines.length)];

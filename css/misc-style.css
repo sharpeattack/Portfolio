@@ -1,25 +1,10 @@
 body {
-    background-color: #212121;
+    background-color: #000;
 }
 
 a:hover { 
     text-decoration: none;
     border-bottom: none;
-}
-.retina {
-    max-width: 400px;
-    width: 70%;
-
-}
-
-.retina-med {
-    width: 75%;
-    max-width: 500px;
-}
-
-.retina-big {
-    width: 85%;
-    max-width: 850px;
 }
 
 .misc-bg {
@@ -30,6 +15,7 @@ a:hover {
     text-align: justify;
 
 }
+
 .bg-text {
     color: #fff;
     opacity: 0.1;
@@ -43,20 +29,30 @@ a:hover {
 
 }
 
-
-
 .misc-section {
     z-index: 5;
-    padding: 0 0 12% 0;
-    text-align: center;
+    padding: 0 5% 2.5% 5%;
+    text-align: left;
 }
 
-.misc-section h1 {
+.misc-hero {
+   margin-top: 15%;
+}
+
+.misc-section .misc-content { 
+    margin-bottom: 6%;
+}
+
+
+/*  TYPE */
+
+.misc-hero h1 {
     font-family: 'Syne-Extra';
     color: #fff;
     width: 100%;
     text-transform: none;
-    padding: 10% 0 0 0;
+    text-align: left;
+    margin: 0;
 }
 
 .misc-section h2 { 
@@ -66,34 +62,72 @@ a:hover {
     font-size: 2rem;
     line-height:1;
     padding: 0;
+    text-align: left;
+
 }
-
-
 
 .misc-title p { 
     font-family: 'GT America Light';
     color: #fff;
 }
 
-
 .misc-title {
-    padding: 12% 0 2.5% 0;
+    padding: 2.5% 0 1.5% 0;
 }
 
-.misc-wrapper {
-    width: 100vw;
+
+/* Image sizing */
+
+.misc-content img { 
+    max-width: 23%;
+    padding: 1% 1% 1% 0;
+    
 }
 
-img {    transition: transform .5s;
+.misc-content .large {
+    max-width: 40%;
 }
 
-img:hover {
-    opacity: 0.8;
-    transform: rotate(1deg);
-    transition: transform .25s;
+.zine img {
+    max-width: 17%;
+}
+
+.zine .alt {
+    max-width: 24% ;
+}
+.poster img {
+
+}
+
   
-}
+   /* Mobile styles */
 
-.img-offset { 
-    margin-top: -6%;
-}
+   @media (max-width: 640px) {
+
+    .misc-hero {
+        margin-top: 50%;
+     }
+
+    .misc-section {
+    }
+
+    .misc-content img { 
+        max-width: 48%;
+        padding: 1% 1% 1% 0;
+        
+    }
+    
+    .misc-content .large {
+        max-width: 100%;
+    }
+    
+    .zine img {
+        max-width: 30%;
+    }
+    
+    .zine .alt {
+        max-width: 50% ;
+    }
+
+
+   }
