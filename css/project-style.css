@@ -19,7 +19,7 @@
 
 .project-info-wrapper {
   float: left;
-  width: 25.5vw;
+  width: 28.5vw;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -64,6 +64,7 @@
 
 .project-info-content {
   padding: 40px;
+    max-width: 70%;
 }
 
 .project-link-wrapper {
@@ -147,6 +148,68 @@
   background-size: cover;
 }
 
+
+
+
+   @media (max-width: 1024px) { 
+
+    .project-banner {
+      width: 2.5vw;
+      font-size: 1.4vw;
+      line-height: 2.5vw;}
+
+    .project-info-wrapper {
+      left: 2.5%;
+      width: 34.5vw;
+      min-width: 30vw ;
+    }
+
+    .project-content {
+      width: 63vw;
+    }
+
+  }
+
+
+   /* iPad styles */
+
+  @media (max-width: 860px) { 
+
+    .project-banner {
+      width: 4vw;
+      height: 100%;
+      font-size: 2.5vw;
+      line-height: 3.75vw;}
+
+    .project-info-wrapper {
+      left: 0;
+      width: 100vw;
+      position: initial;
+      height: 70vh;
+    }
+
+    .project-content {
+      width: 96vw;
+      margin-left: 4vw;
+      float: none;
+  }
+
+  .project-info-content {
+    max-width: 70%;
+    padding: 60px;
+    margin-left: 0;
+
+  }
+
+  .project-info-content nav  {
+    position: initial;
+    display: inline;
+  }
+
+  .project-intro {
+  }
+
+  }
 
    /* Mobile styles */
 
@@ -263,4 +326,3 @@
   .thehogan {
     background-color:  #fff;
   }
- 

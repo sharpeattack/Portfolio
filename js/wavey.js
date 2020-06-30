@@ -14,7 +14,13 @@ const app = new PIXI.Application({
 	autoResize: true,
   resolution: devicePixelRatio,
   transparent: true
+  
 });
+
+
+
+
+
 //add pixi to application
 section.appendChild(app.view)
   //make new image
@@ -36,7 +42,7 @@ section.appendChild(app.view)
     image.x =  376
     image.y = 300
     image.width = 752 
-    image.height = 600
+    image.height =480
     image.interactive = true
     
     image.anchor.x = 0.5
@@ -112,7 +118,9 @@ function resize() {
 	const parent = app.view.parentNode;
    
 	// Resize the renderer
-	app.renderer.resize(parent.clientWidth, parent.clientHeight);
+  app.renderer.resize(parent.clientWidth, parent.clientHeight);
+  app.renderer.plugins.interaction.autoPreventDefault = false;
+  app.renderer.view.style.touchAction = 'auto';
 }
 
 resize();

@@ -233,7 +233,7 @@ h3 {
 canvas {
   display: block;
   overflow: hidden;
-  height: 50vh;
+  height: 30vh;
 }
 
 .hero {
@@ -325,9 +325,13 @@ canvas {
       padding: 0px 8vw; }
 
 .hero-section {
-  height: 50vh;
-  padding-top:10vh;
+  height: 30vh;
+  padding-top: 10vh;
+  min-height: 40vh;
+  overflow: initial;
 }
+
+
     .hero-content {
       padding-bottom: 8vw ;
     }
