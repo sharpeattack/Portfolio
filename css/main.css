@@ -333,7 +333,9 @@ canvas {
 
 
     .hero-content {
-      padding-bottom: 8vw ;
+      padding: 0 5vw 8vw 5vw;
+}
+
     }
 
     .projects {
