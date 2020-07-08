@@ -18,6 +18,9 @@ const randomItem = taglines[Math.floor(Math.random()*taglines.length)];
 document.querySelector(".tagline").innerHTML = randomItem;
 
 
+
+
+
 function makeMarque() {
     // get all elements with a class name
     const marquee = document.getElementsByClassName('marquee');
@@ -36,6 +39,12 @@ function makeMarque() {
   }
 
   makeMarque();
+
+
+
+
+
+
 
   // HERO Section Gallery
 

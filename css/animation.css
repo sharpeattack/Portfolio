@@ -70,3 +70,19 @@
       display: block;
       animation: moveRight 300s infinite;
     }
+
+    @keyframes moveTop {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-3000vw);
+      }
+    }
+
+    .marquee-top {
+      white-space: nowrap;
+      position: relative;
+      display: block;
+      animation: moveTop 300s infinite;
+    }
