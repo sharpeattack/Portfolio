@@ -42,7 +42,7 @@ section.appendChild(app.view)
     image.x =  376
     image.y = 300
     image.width = 752 
-    image.height =480
+    image.height =600
     image.interactive = true
     
     image.anchor.x = 0.5

@@ -185,7 +185,7 @@
       left: 0;
       width: 100vw;
       position: initial;
-      height: 70vh;
+      height: auto;
     }
 
     .project-content {
@@ -196,7 +196,7 @@
 
   .project-info-content {
     max-width: 70%;
-    padding: 60px;
+    padding: 80px;
     margin-left: 0;
 
   }
@@ -215,10 +215,19 @@
 
    @media (max-width: 640px) { 
 
+    .project-info-wrapper {
+      left: 0;
+      width: 100vw;
+      position: initial;
+      height: auto;
+    }
 
-
-   }
-
+    .project-info-content {
+      max-width: 100%;
+      padding: 40px 40px 60px 40px;
+      margin-left: 0;}
+      
+  }
 
 
 

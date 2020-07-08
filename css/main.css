@@ -310,7 +310,7 @@ canvas {
       
   }
 
-
+  }
 
 
 
@@ -325,18 +325,25 @@ canvas {
       padding: 0px 8vw; }
 
 .hero-section {
-  height: 30vh;
+  height: 40vh;
   padding-top: 10vh;
   min-height: 40vh;
+  overflow: hidden;
+}
+
+canvas {
   overflow: initial;
 }
 
 
     .hero-content {
-      padding: 0 5vw 8vw 5vw;
+     visibility: hidden;
+     padding: 0;
+     line-height: 0;
+     
 }
 
-    }
+ 
 
     .projects {
       padding: 20% 0 18% 0;
@@ -358,8 +365,9 @@ canvas {
     }
 
     .projects span {
-      font-size:  16vw;
+      font-size:  16vw;}
       
+  
 
 
 
