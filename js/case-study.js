@@ -10,7 +10,7 @@ function makeMarque() {
       // span.style.fontSize = Math.random(i*100) * 100 + 'px'
       // span.style.color = 'rgba(' + Math.random(i) * 255 + '255, 255, 1)'
       let title  = span.textContent;
-      let marqueeText = new Array(50).fill(title).join(' — ')
+      let marqueeText = new Array(200).fill(title).join(' — ')
       span.innerHTML = marqueeText
     })
 
