@@ -312,6 +312,21 @@
     background-color:  #210035;
   }
 
+
+
+  .sandyfm h2 {
+    color: #FFF0A7;
+    
+  }
+  .sandyfm span {
+    color: #9EE1FF;
+    mix-blend-mode: difference;
+  }
+  
+  .sandyfm {
+    background-color:  #2B353A;
+  }
+
   .farfetch h2 {
     color: #3D0062;
     
