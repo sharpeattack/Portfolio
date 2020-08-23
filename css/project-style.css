@@ -134,7 +134,25 @@
   font-family: 'Syne-Extra', sans-serif;
 }
 
+
+
 /* CASE STUDY CONTENT */
+
+.project-hero {
+  width: 100%;
+  
+  background-image: url("../img/projects/hmht/hmht-cover2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-title{
+  margin: 8% auto;
+  text-transform: uppercase;
+  font-size: 14vw;
+  line-height: 12vw;
+  width: 90%;
+}
 
 .project-content {
   overflow: scroll;
@@ -228,6 +246,19 @@
    /* iPad styles */
 
   @media (max-width: 860px) { 
+
+    .project-hero {
+      width: 100%;
+      padding: 18% 0vw;
+      background-size: contain;
+    }
+    
+    .hero-title{
+      font-size: 21vw;
+      line-height: 18vw;
+      width: 100%;
+    }
+    
 
     .project-banner {
       width: 4vw;
@@ -361,6 +392,10 @@
   .hmht {
     background-color: #83E9FF;  
   }
+
+.hmht-titles { 
+  color:#83E9FF;
+}
   .hmht-inverse {
     background-color: #3214AE;  
     color: white;
