@@ -140,14 +140,59 @@
   overflow: scroll;
   float: right;
   width: 70vw;
-  background-color: black;
-  color: white;
+  /* background-color: black; */
+  /* color: white; */
 }
 .cover-img {
   width: 100%;
   background-size: cover;
 }
 
+
+
+/* TEXT FOR CASE STUDIES */
+
+.text-container {
+  margin: 0% 1% ;
+  padding: 0  0%;
+  width: 98%;
+}
+
+
+.text-paragraph {
+  font-style: normal;
+  font-weight: 300;
+
+  font-size: 15px;
+  line-height: 125.7%;
+}
+
+.two-column {
+  width: 49%;
+}
+
+.text-left-column {
+  float: left;
+}
+.text-right-column {
+  float: right;
+  padding: 0 0 0 0 ;
+}
+
+
+@media (min-width: 1440px) {
+  .text-container {
+    margin: 0% 10% ;
+    padding: 0  0%;
+    width: 80%;
+  }   
+  
+  .text-right-column {
+    float: right;
+    padding: 7.5% 0 0 0 ;
+  }
+
+}
 
 
 
@@ -169,6 +214,13 @@
     .project-content {
       width: 63vw;
     }
+
+    .text-container {
+      margin: 0% 2% ;
+      padding: 0  0%;
+      width: 96%;
+    }   
+    
 
   }
 
@@ -213,6 +265,23 @@
   .project-intro {
   }
 
+
+  .text-container {
+    margin: 0% 2% ;
+    padding: 0  0%;
+    width: 96%;
+  
+  }
+  
+
+  
+  
+
+
+
+
+
+
   }
 
    /* Mobile styles */
@@ -230,6 +299,29 @@
       max-width: 100%;
       padding: 80px 50px 80px 50px;
       margin-left: 0;}
+
+
+  .text-container {
+    margin: 0% 0% ;
+    padding: 0  2%;
+    width: 90%;
+  
+  }
+
+  .two-column {
+    width: 100%;
+    padding-bottom: 15px;
+
+  }
+  
+  .text-left-column {
+    float: left;
+  }
+  .text-right-column {
+    float: left;
+  }
+  
+  
   }
 
 
@@ -268,6 +360,10 @@
   }
   .hmht {
     background-color: #83E9FF;  
+  }
+  .hmht-inverse {
+    background-color: #3214AE;  
+    color: white;
   }
   
 
