@@ -3,12 +3,10 @@ const taglines = [
   "Thought Leader",
   "Human focussed, kinda like all humans",
   "Assistant to the regional principle designer",
-  "Social Media Influenza",
   "Senior Principle Headmaster of Experience",
   "My work transforms lives...",
-  "Blockchain Billionaire",
-  "Navel gazer/UX/UI",
   "A universe–centric designer",
+  "CEO–centric designer",
   "Follow me on Tiktok",
   "Working at the intersection of [INSERT TERM] and [INSERT TERM]"
 
