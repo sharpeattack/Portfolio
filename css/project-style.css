@@ -209,11 +209,15 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
 
 
 .video-container {
-
- 
+  width: 70vw;
 }
+
+.project-video {
+  max-width: 100%;
+}
+
 .video-iframe {
-  margin: 2.5% 0 2.5% 0;
+  margin: 0;
   width: 70vw;
   height: 560px;
 }
@@ -260,6 +264,9 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
       width: 96%;
     }   
     
+    .video-container {
+      width: 63vw;
+    }
 
   }
 
@@ -300,6 +307,10 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
       width: 96vw;
       margin-left: 4vw;
       float: none;
+  }
+
+  .video-container {
+    width: 96vw;
   }
 
   .project-info-content {
@@ -484,7 +495,7 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
   }
   
   .salon63 {
-    background-color:  #1D0433;
+    background-color:  #190A2B;
     color: white;
   }
 
