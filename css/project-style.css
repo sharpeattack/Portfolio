@@ -168,6 +168,8 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
   overflow: scroll;
   float: right;
   width: 70vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
   /* background-color: black; */
   /* color: white; */
 }
@@ -237,6 +239,14 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
 
 }
 
+@media (max-width: 1440px) {
+  .text-container {
+    margin: 0% 3% ;
+    padding: 0  0%;
+    width: 96%;
+  }   
+  
+}
 
 
    @media (max-width: 1024px) { 
@@ -259,9 +269,10 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
     }
 
     .text-container {
-      margin: 0% 2% ;
-      padding: 0  0%;
-      width: 96%;
+      float: right;
+      margin: 0% 0% ;
+      padding: 0  3%;
+      width: 94%;
     }   
     
     .video-container {
