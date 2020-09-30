@@ -210,6 +210,28 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
 }
 
 
+.drop-quote {
+  padding: 1% 0;
+  margin: 4% 0;
+}
+
+.drop-quote h3 {
+  font-family: 'Zangezi', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 5rem;
+    line-height: 5.4rem;
+    letter-spacing: -0.2px;
+    text-align: center;
+}
+
+.a, a:link, a:visited  {
+  color: black;
+  
+}
+
+
+
 .video-container {
   width: 70vw;
 }
@@ -354,7 +376,11 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
   height:410px;
 }
   
-  
+.drop-quote h3 {
+  font-size: 4rem;
+  line-height: 4.2rem;
+
+}
 
 
 
@@ -404,6 +430,12 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
     margin: 2.5% 0;
   height:340px;
 }
+
+.drop-quote h3 {
+    font-size: 2.5rem;
+    line-height: 2.4rem;
+
+}
   
   
   
@@ -436,7 +468,7 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
   
 
   .hmht h2 {
-    color: #CAE51A;
+    color: #CAE51A; 
     mix-blend-mode: difference;
   }
   .hmht span {
@@ -445,6 +477,7 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
   }
   .hmht {
     background-color: #83E9FF;  
+    color: #3214AE; 
   }
 
 .hmht-titles { 
@@ -452,10 +485,8 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
 }
   .hmht-inverse {
     background-color: #3214AE;  
-    color: white;
+    color: #83E9FF;
   }
-  
-
 
 
 
