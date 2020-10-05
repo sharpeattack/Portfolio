@@ -459,11 +459,17 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
     mix-blend-mode: difference;
   }
   .the-grid span {
-    color: #FF0000;
+    color: #FFFFFF;
     mix-blend-mode: difference;
   }
   .the-grid {
-    background-color: #0DD59F;  
+    background-color: #152028;
+    color: #00E8DA;  
+  }
+
+  .the-grid-inverse {
+    background-color: #00E8DA;
+    color: #152028;    
   }
   
 
@@ -492,25 +498,22 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
 
 
 
-
-
-
-
-
-
-
-  .pedal h2, .pedal h1 {
-    color: #FFEDC1;
+  .pedal {
+    background-color: #FF1D53;
+    color: #FFF8E6;
   }
 
-  .pedal span {
-    color: #6D1212;
+.pedal-titles {
+  color: #FFF8E6;
+  
+}
+
+  .pedal span{
+    color: #c50000;
     mix-blend-mode: difference;
   }
 
-  .pedal {
-    background-color: #FF1D53;
-  }
+
 
 
   .local-hero h2 {
