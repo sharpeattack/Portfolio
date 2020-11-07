@@ -41,15 +41,15 @@ section.appendChild(app.view)
     
     image.x =  376
     image.y = 300
-    image.width = 752 
-    image.height =600
+    image.width = 351
+    image.height =300
     image.interactive = true
     
     image.anchor.x = 0.5
     image.anchor.y = 0.5
     
     displacementImage.width = 2400
-    displacementImage.height = 1200
+    displacementImage.height = 1600
     displacementImage.texture.baseTexture.wrapMode = PIXI.WRAP_MODES.REPEAT
     
     image.filters=[
@@ -118,9 +118,9 @@ function resize() {
 	const parent = app.view.parentNode;
    
 	// Resize the renderer
-  app.renderer.resize(parent.clientWidth, parent.clientHeight);
-  app.renderer.plugins.interaction.autoPreventDefault = false;
-  app.renderer.view.style.touchAction = 'auto';
+  // app.renderer.resize(parent.clientWidth, parent.clientHeight);
+  // app.renderer.plugins.interaction.autoPreventDefault = false;
+  // app.renderer.view.style.touchAction = 'auto';
 }
 
 resize();
