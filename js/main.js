@@ -1,7 +1,7 @@
 // Tagline stuff
 const taglines = [
   "Thought Leader",
-  "Human focussed, kinda like all humans",
+  "Human focussed, like all humans",
   "Assistant to the regional principle designer",
   "Senior Principle Headmaster of Experience",
   "My work transforms lives...",
