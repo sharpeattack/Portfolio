@@ -212,6 +212,8 @@ h3 {
 
 .tagline {
   text-align: center;
+  padding: 2.5vh 5vw;
+
 }
 
 .blend-mode {
@@ -223,7 +225,7 @@ h3 {
 
 .hero-section {
   padding-top: 10vh;
-  background-color: white;
+  background-color: #212121;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -235,7 +237,11 @@ h3 {
 }
 
 .hero-content {
-    padding-bottom: 4vw;
+    padding: 0vh 0 0vh 0  ;
+    color: white;
+    background-color: #212121;
+    /* padding: 10%; */
+     
   
 }
 
@@ -344,12 +350,6 @@ canvas {
 }
 
 
-    .hero-content {
-   
-     padding: 10%;
-     line-height: 0;
-     
-}
 
  
 
