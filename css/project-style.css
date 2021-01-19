@@ -552,18 +552,25 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
 
 
   .quiz h2 {
-    color: #ff1c1c;
+    color: #fff;
     mix-blend-mode: difference;
   }
 
   .quiz span {
     color: #ffb85c;
     mix-blend-mode: difference;
+  }  
+  
+  .quiz {
+    background-color: #000;
+    color: white;
   }
 
-.quiz {
-  background-color: #FFFEF9;
-}
+
+  .quiz-titles {
+    color:  #fff;
+  }
+
 
 
 
