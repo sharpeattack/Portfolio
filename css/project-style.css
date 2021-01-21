@@ -256,7 +256,7 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
   
   .text-right-column {
     float: right;
-    padding: 7.5% 0 0 0 ;
+    padding: 0 0 0 0 ;
   }
 
 }
@@ -300,6 +300,7 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
     .video-container {
       width: 63vw;
     }
+
 
   }
 
