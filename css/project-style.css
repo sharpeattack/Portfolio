@@ -240,10 +240,9 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
   max-width: 100%;
 }
 
-.video-iframe {
-  margin: 0;
-  width: 70vw;
-  height: 560px;
+.video-container iframe {
+  margin: 7.5% 0;
+  width: 100%;
 }
 
 
@@ -427,9 +426,10 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
     float: left;
   }
 
-  .video-iframe {
-    margin: 2.5% 0;
-  height:340px;
+.video-container iframe {
+  margin: 7% 0;
+  width: 100%;
+  height: auto;
 }
 
 .drop-quote h3 {
