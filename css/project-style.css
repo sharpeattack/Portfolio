@@ -243,6 +243,7 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
 .video-container iframe {
   margin: 7.5% 0;
   width: 100%;
+  height: 490px;
 }
 
 
