@@ -52,6 +52,8 @@
       display: block;
       position: relative;
       animation: moveLeft 300s infinite;
+
+      will-change: transform;
     }
 
 
@@ -69,6 +71,8 @@
       position: relative;
       display: block;
       animation: moveRight 300s infinite;
+
+      will-change: transform;
     }
 
 
@@ -87,4 +91,6 @@
       position: relative;
       display: block;
       animation: moveTop 500s infinite;
+    
+      will-change: transform;
     }

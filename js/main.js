@@ -40,7 +40,6 @@ function makeMarque() {
 
 
 
-
   // HERO Section Gallery
 
 
