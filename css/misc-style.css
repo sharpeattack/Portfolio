@@ -43,6 +43,33 @@ a:hover {
     margin-bottom: 6%;
 }
 
+.misc-container {
+    display: flex;
+}
+
+.misc-container, .child{
+margin: 1% 6% 0 0 ;
+
+}
+
+
+
+.misc-video{ 
+    max-width: 320px; 
+}
+
+.misc-tagline {
+    color: white;
+}
+
+.misc-tagline h3 {    
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: -0.1px;
+    padding: 0;
+    margin: 25px 0 4px 0;
+}
+
 
 /*  TYPE */
 
@@ -108,9 +135,11 @@ a:hover {
         margin-top: 50%;
      }
 
-    .misc-section {
-    }
 
+    .misc-section  { 
+        margin-bottom: 15%;
+    }
+    
     .misc-content img { 
         max-width: 48%;
         padding: 1% 1% 1% 0;
@@ -120,6 +149,8 @@ a:hover {
     .misc-content .large {
         max-width: 100%;
     }
+
+   
     
     .zine img {
         max-width: 30%;
