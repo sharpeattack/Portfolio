@@ -48,7 +48,7 @@ a:hover {
 }
 
 .misc-container, .child{
-margin: 1% 6% 0 0 ;
+margin: 1% 6% 2.5% 0 ;
 
 }
 
@@ -56,6 +56,12 @@ margin: 1% 6% 0 0 ;
 
 .misc-video{ 
     max-width: 320px; 
+}
+
+.youtube-embed { 
+    width: 30%; 
+    min-height: 240px;
+    padding-right: 2.5%;
 }
 
 .misc-tagline {
