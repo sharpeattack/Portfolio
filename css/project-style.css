@@ -159,6 +159,10 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
     } */
   
 
+  .smarty-hero {
+    background-image: url("../img/projects/smarty/smarty-cover.png");
+    }
+
 .hero-title{
   margin: 0 auto;
   text-transform: uppercase;
@@ -575,6 +579,27 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
   .quiz-titles {
     color:  #fff;
   }
+
+
+
+.smarty {
+  background-color: #2D2F32;
+  color: white;
+}
+
+.smarty h2 {
+  color: #fff;
+  /* mix-blend-mode: difference; */
+}
+
+.smarty span {
+  color: #0EECC4;
+  mix-blend-mode: difference;
+}  
+.smarty .smarty-title {
+font-size: 8vw;
+    line-height: 7vw;
+}
 
 
 

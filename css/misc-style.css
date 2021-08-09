@@ -61,7 +61,12 @@ margin: 1% 6% 2.5% 0 ;
 .youtube-embed { 
     width: 30%; 
     min-height: 240px;
-    padding-right: 2.5%;
+    padding: 0 2.5% 0 0;
+}
+
+.youtube-hero { 
+    width: 720px;
+    height: 480px;
 }
 
 .misc-tagline {
@@ -156,7 +161,16 @@ margin: 1% 6% 2.5% 0 ;
         max-width: 100%;
     }
 
-   
+    .youtube-embed { 
+        width: 100%; 
+        min-height: 240px;
+        padding: 2.5% 0;
+    }
+    
+    .youtube-hero { 
+        width: 100%;
+        height: auto;
+    }
     
     .zine img {
         max-width: 30%;
