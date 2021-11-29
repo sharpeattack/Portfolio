@@ -49,7 +49,7 @@
 .project-info-wrapper h1{
   font-size: 36px;
 
-
+  color: #212121;
   padding: 0 0 16px 0;
   margin: 0;
   line-height: 1;
@@ -130,8 +130,8 @@
   font-size:  1vw;
   white-space: nowrap	; 
   line-height: 1.5vw;
-
-  font-family: 'Syne-Extra', sans-serif;
+  text-transform: uppercase;
+  font-family: 'GT America Extended Bold', sans-serif;
 }
 
 
@@ -139,11 +139,12 @@
 /* CASE STUDY CONTENT */
 
 .project-hero {
-  padding: 10% 0;
+  padding: 24% 0;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .hmht-hero {
 background-image: url("../img/projects/hmht/hmht-cover2.jpg");
@@ -255,6 +256,8 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
 
 
 @media (min-width: 1440px) {
+
+
   .text-container {
     margin: 0% 10% ;
     padding: 0  0%;
@@ -266,6 +269,10 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
     padding: 0 0 0 0 ;
   }
 
+  .project-hero {
+    padding: 18% 0;
+  }
+  
 }
 
 @media (max-width: 1440px) {
@@ -274,11 +281,17 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
     padding: 0  0%;
     width: 94%;
   }   
+
+  .project-hero {
+    padding: 36% 0;
+  }
   
 }
 
 
    @media (max-width: 1024px) { 
+
+
 
     .project-banner {
       width: 2.5vw;

@@ -6,8 +6,14 @@
 
 @font-face {
     font-family: 'Zangezi';
-    src: url('../fonts/zangezi03.woff') format('woff'), 
-         url('../fonts/zangezi03.woff2') format('woff2');
+    src: url('../fonts/Zangezi08-Regular.woff') format('woff'), 
+         url('../fonts/Zangezi08-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Zangezi Condensed';
+    src: url('../fonts/Zangezi08-Condensed.woff') format('woff'), 
+         url('../fonts/Zangezi08-Condensed.woff2') format('woff2');
 }
 
 

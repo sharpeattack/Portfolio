@@ -163,29 +163,30 @@ p {font-family: 'GT America Light'; }
 }
 
 h1 { 
-  font-size: 10.5vw;
   text-align: center;
   font-family: 'Zangezi', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   line-height: 11.75vw;
   width: 60vw;
+  color: white;
 
   
 }
 
 h2 {
   margin: 0 ;
-  padding: 0 ;
+  padding: 1% 0 0 0 ;
   text-align: center;
   font-size: 12vw;
-  line-height: 12vw;
+  line-height: 14vw;
 
   color: #fff;
   text-decoration: none;
+  text-transform: uppercase;
   z-index:  3;
 
-  font-family: 'Zangezi', sans-serif;
+  font-family: 'Zangezi Condensed', sans-serif;
   font-weight: normal;
 
   overflow-wrap: break-word;
@@ -211,7 +212,7 @@ h3 {
 
 
 .secret-mobile-header {
-  display: none;
+display: inline-block;
     padding: 0;
   margin: 0;
 }
@@ -230,34 +231,52 @@ h3 {
 /* Layout */
 
 .hero-section {
-  padding-top: 6vh;
+  padding-top: 12.5vh;
   background-color: #212121;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   min-height: 30vh;
   width: 100%;
-  height: 45vh;
+  height: auto;
 
   
 }
+
+
 
 .hero-content {
     padding: 0vh 0 0vh 0;
     color: white;
     background-color: #212121;
+}
+
+.hero-section img {
+  width: 480px;
+
+}
 
 
-
+.hero-h1 {
+  font-size: 175px;
+  line-height: 0vw;
+  width: 100vw;
+  margin: 0;
+  padding-top: -1vh;
 
   
 }
 
-canvas {
-  display: block;
-  
+.tagline {
+  padding: 5vh 0vw;
+
 }
 
+.hero-content {
+  padding-bottom: 5vh ;
+
+}
 .hero {
   position: absolute;
       height: 40vh;
@@ -267,7 +286,7 @@ canvas {
 
  .projects {
     background-color: #FF1D53;
-    padding:  4% 0 2.5% 0 ;
+    padding: 2% 0 0% 0;
   } 
 
   .grid {
@@ -297,31 +316,47 @@ canvas {
   
   .projects span {
     text-align: center;
-    font-size:  6vw;
+    font-size:  3vw;
 
 
-    font-family: 'Syne-Extra', sans-serif;
+    font-family: 'GT America Extended Bold', sans-serif;
     color: #6D1212;
+    text-transform: uppercase;
     padding-bottom: 2%;
   }
   
 
-
-
   @media (max-width: 1024px) {
 
-    h1 {
-      font-size: 11.5vw;
-      line-height: 13.5vw;
-      width: 60vw;
+    .hero-h1 {
+      font-size: 13.5vw;
+      line-height: 0vw;
+      width: 100vw;
       margin: 0;
+      padding-top: 1vh;
 
       
     }
 
+    .tagline {
+      padding: 4vh 0vw;
+    
+    }
+
+    .hero-content {
+      padding-bottom: 7vh ;
+    
+    }
+
+    .hero-section img {
+      width: 360px;
+      height: auto;
+      visibility: visible;
+    }
+
     h2 {
       font-size: 20.5vw;
-      line-height: 20.5vw;
+      line-height: 21.5vw;
       text-decoration: none;
     }
     
@@ -350,27 +385,37 @@ canvas {
   padding: 0px 8vw; }
 
 .hero-section {
-  height: 0vh;
-  padding: 0vh 0;
-  min-height: 0vh;
+  padding-bottom: 5vw;
+ 
   background-color: #212121;
-  overflow: hidden;
 }
 
-.hero-section canvas { visibility: hidden;}
+.hero-h1 {
+  padding-top: -1vh;
+  font-size: 14vw;
+  line-height: 0;
+}
+
+
+.hero-section canvas { }
 
  
 .hero-content {
   position: inherit;
   background-color: #212121;
   width: 100%;
-  overflow: hidden;
-  padding: 18vh 0 2vh 0;
+  padding: 0vw 0 8vh 0;
+
 }
 
+
+.tagline {
+  text-align: center;
+  padding: 0vh 15vw;
+
+}
 .secret-mobile-header {
-  display:inline-block;
-  overflow: hidden;
+ 
 
 }
 
@@ -388,16 +433,16 @@ canvas {
     
 
 
-    h1 { 
+    /* h1 { 
         width: 100vw;
         font-size:  21vw;
         line-height: 21vw; 
-      }
+      } */
 
       
     h2 {
       font-size: 30.5vw;
-      line-height: 30.5vw;
+      line-height: 31.5vw;
     }
 
     .projects span {
