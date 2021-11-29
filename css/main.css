@@ -350,8 +350,6 @@ display: inline-block;
 
     .hero-section img {
       width: 360px;
-      height: auto;
-      visibility: visible;
     }
 
     h2 {
@@ -396,7 +394,9 @@ display: inline-block;
   line-height: 0;
 }
 
-
+.hero-section img {
+  width: 300px;
+}
 .hero-section canvas { }
 
  
