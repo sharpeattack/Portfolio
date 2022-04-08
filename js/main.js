@@ -4,11 +4,17 @@ const taglines = [
   "Human focussed, like all humans",
   "Assistant to the regional principle designer",
   "Senior Principle Headmaster of Experience",
-  "My work transforms lives...",
   "A universe–centric designer",
   "CEO–centric designer",
+  "Gluten free product design",
+  "Does in fact have a mullet",
+  "Remembers a few years before the internet",
   "Follow me on Tiktok",
-  "Working at the intersection of [INSERT TERM] and [INSERT TERM]"
+  "Designer with a strong sense of smell",
+  "Designer with a 5 star Uber rating",
+  "What a cool name",
+  "Designer who helps facilitate capitalism",
+  "Working at the intersection of [INSERT TERM] and [INSERT TERM]",
 
 ];
 
