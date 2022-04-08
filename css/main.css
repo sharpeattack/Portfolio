@@ -259,7 +259,7 @@ display: inline-block;
 
 
 .hero-h1 {
-  font-size: 175px;
+  font-size: 165px;
   line-height: 0vw;
   width: 100vw;
   margin: 0;
@@ -269,7 +269,7 @@ display: inline-block;
 }
 
 .tagline {
-  padding: 5vh 0vw;
+  padding: 7vh 0vw;
 
 }
 
@@ -404,7 +404,7 @@ display: inline-block;
   position: inherit;
   background-color: #212121;
   width: 100%;
-  padding: 0vw 0 8vh 0;
+  padding: 3vw 0 8vh 0;
 
 }
 
@@ -412,6 +412,8 @@ display: inline-block;
 .tagline {
   text-align: center;
   padding: 0vh 15vw;
+
+  
 
 }
 .secret-mobile-header {

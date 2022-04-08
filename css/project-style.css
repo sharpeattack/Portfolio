@@ -159,10 +159,17 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
     background-image: url("../img/projects/quiz/jakes-quiz-cover.jpg");
     } */
   
+  
 
   .smarty-hero {
     background-image: url("../img/projects/smarty/smarty-cover.png");
+    padding: 15% 0 !important;
     }
+
+  .smarty-quote {
+    background-color: #434449;
+    color:#fff;
+  }
 
 .hero-title{
   margin: 0 auto;
@@ -401,14 +408,10 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
   font-size: 4rem;
   line-height: 4.2rem;
 
+  }
+
 }
 
-
-
-
-
-
-  }
 
    /* Mobile styles */
 
@@ -458,10 +461,9 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
     line-height: 2.4rem;
 
 }
-  
-  
-  
-  }
+
+
+}
 
 
 
@@ -603,15 +605,17 @@ background-image: url("../img/projects/hmht/hmht-cover2.jpg");
 .smarty h2 {
   color: #fff;
   /* mix-blend-mode: difference; */
+ 
 }
 
 .smarty span {
   color: #0EECC4;
   mix-blend-mode: difference;
 }  
-.smarty .smarty-title {
-font-size: 8vw;
-    line-height: 7vw;
+
+.smarty-title {
+  font-size: 14vw;
+  line-height: 12vw;
 }
 
 
