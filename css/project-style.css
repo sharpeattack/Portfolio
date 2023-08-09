@@ -171,6 +171,13 @@ background-image: url("../img/projects/salon63/salon63-cover.jpg");
   color:#fff;
 }
 
+
+.coachable-hero {
+  background-image: url("../img/projects/coachable/coachable-cover.png");
+  padding: 20% 0 !important;
+  }
+
+
 .hero-title{
 margin: 0 auto;
 text-transform: uppercase;
@@ -660,6 +667,35 @@ mix-blend-mode: difference;
 }
 
 
+/* COACHABLE */
+
+.coachable {
+  background-color: #090943;
+  color: #f8f8f8;
+  }
+  
+
+  
+  .coachable .project-hero {
+  padding: 21% 0 21% 0; 
+  color: white;
+   }
+
+  .coachable-titles{
+  color: white;
+  }
+  
+  .coachable-inverse {
+    background-color:#090943;
+  color: #f8f8f8;
+  }
+  
+  .coachable-inverse span{
+    color: #FF613F;
+    mix-blend-mode: difference;
+    }
+    
+  
 
 
 
