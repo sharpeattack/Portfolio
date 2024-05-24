@@ -177,6 +177,11 @@ background-image: url("../img/projects/salon63/salon63-cover.jpg");
   padding: 20% 0 !important;
   }
 
+.culturelabs-hero {
+    background-image: url("../img/projects/culture-labs/culture-labs-hero.jpg");
+    padding: 20% 0 !important;
+    }
+
 
 .hero-title{
 margin: 0 auto;
@@ -666,6 +671,19 @@ mix-blend-mode: difference;
 
 }
 
+/* CULTURE LABS */
+
+.culturelabs {
+  /* background-color: #ffffff; */
+  color: #042239;
+  }
+
+.culturelabs .project-hero {
+     color: #042239;
+     }
+  
+
+     
 
 /* COACHABLE */
 
@@ -724,9 +742,24 @@ color:#83E9FF;
 
 
 
+/* CULTURE LABS */
+.culturelabs .project-banner{
+  background-color: #042239;
+  color: #e2eef8;
+  }
+  
+  .culture-labs {
+    background-color: #e2eef8;
+  }
+  .culture-labs h2 {
+    color: #042239;
+  }
 
 
-
+  .culture-labs span {
+    color: #009A3E;
+    mix-blend-mode: difference;
+  }
 
 
 .sandyfm h2 {
