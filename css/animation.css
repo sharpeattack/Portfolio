@@ -1,96 +1,50 @@
-  
-  /*  Original Code  */
-  
-  /* @keyframes moveLeft {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-3000vw);
-    }
-
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0);
   }
-  
-  .marquee-left {
-    white-space: nowrap;
-    display: block;
-    position: relative;
-  
-    animation: moveLeft 160s infinite; 
-
-
+  100% {
+    transform: translateX(-3000vw);
   }
+}
 
-  @keyframes moveRight {
-    0% {
-      transform: translateX(-150vw);
-    }
-    100% {
-      transform: translateX(3000vw);
-    }
+.marquee-left {
+  white-space: nowrap;
+  display: block;
+  position: relative;
+  animation: moveLeft 300s infinite;
+  will-change: transform;
+}
+
+@keyframes moveRight {
+  0% {
+    transform: translateX(-6000vw);
   }
- 
-  .marquee-right {
-    white-space: nowrap;
-    position: relative;
-      display: block;
-    animation: moveRight 160s infinite; 
-  } */
-
-
-  @keyframes moveLeft {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-3000vw);
-    }
+  100% {
+    transform: translateX(-3000vw);
   }
+}
 
-    .marquee-left {
-      white-space: nowrap;
-      display: block;
-      position: relative;
-      animation: moveLeft 300s infinite;
+.marquee-right {
+  white-space: nowrap;
+  position: relative;
+  display: block;
+  animation: moveRight 300s infinite;
+  will-change: transform;
+}
 
-      will-change: transform;
-    }
+@keyframes moveTop {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-3000vw);
+  }
+}
 
-
-    @keyframes moveRight {
-      0% {
-        transform: translateX(-6000vw);
-      }
-      100% {
-        transform: translateX(-3000vw);
-      }
-    }
-
-    .marquee-right {
-      white-space: nowrap;
-      position: relative;
-      display: block;
-      animation: moveRight 300s infinite;
-
-      will-change: transform;
-    }
-
-
-
-    @keyframes moveTop {
-      0% {
-        transform: translateY(0);
-      }
-      100% {
-        transform: translateY(-3000vw);
-      }
-    }
-
-    .marquee-top {
-      white-space: nowrap;
-      position: relative;
-      display: block;
-      animation: moveTop 500s infinite;
-    
-      will-change: transform;
-    }
+.marquee-top {
+  white-space: nowrap;
+  position: relative;
+  display: block;
+  animation: moveTop 500s infinite;
+  will-change: transform;
+}

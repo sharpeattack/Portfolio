@@ -4,6 +4,26 @@
 <head>
   <meta charset="utf-8">
   <title>CultureLabs — Jake Sharpe</title>
+  <meta name="description" content="Portfolio site for London based designer, Jake Sharpe.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafafa">
+  
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="CultureLabs — Jake Sharpe">
+  <meta property="og:description" content="Launching an MVP and brand for the AI personality insights startup CultureLabs">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jakesharpe.com/culturelabs.html">
+  <meta property="og:image" content="img/projects/culture-labs/culture-labs-hero.jpg">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CultureLabs — Jake Sharpe">
+  <meta name="twitter:description" content="Launching an MVP and brand for the AI personality insights startup CultureLabs">
+  <meta name="twitter:image" content="img/projects/culture-labs/culture-labs-hero.jpg">
+  
+  <!-- Preload critical resources -->
+  <link rel="preload" href="img/projects/culture-labs/culture-labs-hero.jpg" as="image">
+  <link rel="preload" href="css/fonts/GT-America-Extended-Bold.woff2" as="font" type="font/woff2" crossorigin>
 
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicon/apple-touch-icon-57x57.png" />
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon/apple-touch-icon-114x114.png" />
@@ -13,10 +33,6 @@
   <link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicon/apple-touch-icon-152x152.png" />
   <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
-  
-  <meta name="description" content="Portfolio site for London based designer, Jake Sharpe.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#fafafa">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
@@ -74,7 +90,7 @@
   <!-- Projects content -->
   <main class="project-content">
     <div class="project-hero culturelabs-hero">
-      <h2 class="hero-title culturelabs">Your MVPs need identity.</h2>
+      <h2 class="hero-title">Your MVPs need identity.</h2>
     </div>
     
     <div class="video-container">
@@ -99,13 +115,20 @@
 
   <!-- Marquee Loop -->
   <script src="js/case-study.js" defer></script>
+  
+  <!-- Performance Monitoring -->
+  <script src="js/performance.js" defer></script>
 
   <!-- Analytics -->
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-21573491-2', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+    // Optimized analytics loading
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-21573491-2', 'auto');
+    ga('send', 'pageview');
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
 </body>
 </html>

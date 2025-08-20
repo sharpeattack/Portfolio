@@ -192,13 +192,9 @@ width: 90%;
 }
 
 .project-content {
-overflow: scroll;
+overflow: hidden;
 float: right;
 width: 70vw;
-overflow-y: hidden;
-overflow-x: hidden;
-/* background-color: black; */
-/* color: white; */
 }
 .cover-img {
 width: 100%;
@@ -743,23 +739,29 @@ color:#83E9FF;
 
 
 /* CULTURE LABS */
+
+.culturelabs {
+  background-color: #F51767;
+}
+
 .culturelabs .project-banner{
   background-color: #042239;
   color: #e2eef8;
-  }
-  
-  .culture-labs {
-    background-color: #e2eef8;
-  }
-  .culture-labs h2 {
-    color: #042239;
-  }
+}
 
+.culturelabs .project-hero {
+  background-color: #042239;
+}
 
-  .culture-labs span {
-    color: #009A3E;
+.culturelabs .project-hero h2 {
+  color: #042239;
+}
+
+.culturelabs span {
+  color: #ffffff;
     mix-blend-mode: difference;
-  }
+ 
+}
 
 
 .sandyfm h2 {
@@ -788,16 +790,3 @@ color:#83E9FF;
   background-color:  #FFEAEA;
 }
 
-
-.thehogan h2 {
-  color: #000;
-  
-}
-.thehogan span {
-  color: #78DA44;
-  mix-blend-mode: difference;
-}
-
-.thehogan {
-  background-color:  #fff;
-}
