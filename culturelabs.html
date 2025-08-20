@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -14,24 +14,21 @@
   <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
   
-  
   <meta name="description" content="Portfolio site for London based designer, Jake Sharpe.">
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafafa">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
 
+  <!-- Critical CSS -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/project-style.css">
-  <link rel="stylesheet" href="css/animation.css">
   
-
-  <meta name="theme-color" content="#fafafa">
-  
+  <!-- Non-critical CSS -->
+  <link rel="stylesheet" href="css/animation.css" media="print" onload="this.media='all'">
 </head>
 
 <body class="culturelabs">
@@ -39,123 +36,71 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-
-<!-- MARQUEE BAR -->
-<div class="project-banner">
-  <span class="marquee marquee-top"> 
-    Launching an MVP and brand for the AI personality insights startup CultureLabs
-  </span>
+  <!-- MARQUEE BAR -->
+  <div class="project-banner">
+    <span class="marquee marquee-top"> 
+      Launching an MVP and brand for the AI personality insights startup CultureLabs
+    </span>
   </div>
 
-
-<!-- Project info  -->
-<section class="project-info-wrapper">
-
-  <div class="project-info-content">
+  <!-- Project info  -->
+  <section class="project-info-wrapper">
+    <div class="project-info-content">
       <nav>
         <a href="/">🡐Back </a>
       </nav>
 
-      <div class="project-intro ">
-          <h1 class ="project-title">
-            CultureLabs
-          </h1>
-          <p class ="" >
-            Culturelabs came to us with a cool new idea for an MVP. In just a few weeks we spoke to users, found a use case and built this product. Half way through the project, it felt like it really needed a brand to help bring it to life, so I made one.            </p>
+      <div class="project-intro">
+        <h1 class="project-title">
+          CultureLabs
+        </h1>
+        <p>
+          Culturelabs came to us with a cool new idea for an MVP. In just a few weeks we spoke to users, found a use case and built this product. Half way through the project, it felt like it really needed a brand to help bring it to life, so I made one.
+        </p>
       </div>
-
-
 
       <div class="project-collaborators">
-        <h2> Much love to </h2>
-          <a href="https://www.getkoios.ai//" target="_blank">
-            <p>CultureLabs (Now Koios)</p>
-          </a>
-          <a href="https://www.planes.studio/" target="_blank">
-            <p>Planes</p>
-          </a>
-
+        <h2>Much love to</h2>
+        <a href="https://www.getkoios.ai/" target="_blank" rel="noopener">
+          <p>CultureLabs (Now Koios)</p>
+        </a>
+        <a href="https://www.planes.studio/" target="_blank" rel="noopener">
+          <p>Planes</p>
+        </a>
       </div>
+    </div>
+  </section>
 
-  </div>
-</section>
+  <!-- Projects content -->
+  <main class="project-content">
+    <div class="project-hero culturelabs-hero">
+      <h2 class="hero-title culturelabs">Your MVPs need identity.</h2>
+    </div>
+    
+    <div class="video-container">
+      <video class="project-video" src="img/projects/culture-labs/culture-labs-logo2.mp4" loop autoplay muted playsinline preload="none" poster="img/projects/culture-labs/culture-labs-hero.jpg"></video>
+    </div>
 
+    <img class="cover-img" src="img/projects/culture-labs/culture-labs-sliders2.jpg" alt="CultureLabs slider interface design" loading="lazy">
 
-<!-- Projects content -->
-
-<section class="project-content  ">
-  
-  <div class="project-hero culturelabs-hero">
-      <h2 class="hero-title culturelabs">MVPs need brands.</h2>
-  </div>
-  
-  <!-- <div class="video-container">
-    <video class="project-video" src="img/projects/culture-labs/culture-labs-logo.mp4" loop autoplay muted playsinline>  </video>
-    </div> -->
+    <img class="cover-img" src="img/projects/culture-labs/culture-labs-colours.jpg" alt="CultureLabs brand color palette" loading="lazy">
 
     <div class="video-container">
-        <video class="project-video" src="img/projects/culture-labs/culture-labs-logo2.mp4" loop autoplay muted playsinline>  </video>
-        </div>
- 
+      <video class="project-video" src="img/projects/culture-labs/culture-labs-slide-animation.mp4" loop autoplay muted playsinline preload="none"></video>
+    </div>
 
+    <img class="cover-img" src="img/projects/culture-labs/culture-labs-lockup1.jpg" alt="CultureLabs logo lockup design" loading="lazy">
+    <img class="cover-img" src="img/projects/culture-labs/culture-labs-sliders.jpg" alt="CultureLabs interface sliders" loading="lazy">
 
+    <img class="cover-img" src="img/projects/culture-labs/cl-website.jpg" alt="CultureLabs website design" loading="lazy">
 
-<img class="cover-img" src="img/projects/culture-labs/culture-labs-sliders2.jpg">
+    <img class="cover-img" src="img/projects/culture-labs/cl-footer.jpg" alt="CultureLabs website footer design" loading="lazy">
+  </main>
 
+  <!-- Marquee Loop -->
+  <script src="js/case-study.js" defer></script>
 
-
-<img class="cover-img" src="img/projects/culture-labs/culture-labs-colours.jpg">
-
-<div class="video-container">
-  <video class="project-video" src="img/projects/culture-labs/culture-labs-slide-animation.mp4" loop autoplay muted playsinline>  </video>
-  </div>
-
-
-<img class="cover-img" src="img/projects/culture-labs/culture-labs-lockup1.jpg">
-<img class="cover-img" src="img/projects/culture-labs/culture-labs-sliders.jpg">
-
-<img class="cover-img" src="img/projects/culture-labs/cl-website.jpg">
-
-<img class="cover-img" src="img/projects/culture-labs/cl-footer.jpg">
-
-<!-- 
-<div class="text-container">
-
-  <h3> So why the hell does this exist Jake?</h3>
-
-  <p class="text-paragraph two-column text-left-column">
-    The year was 2017 and a start up I was working with had hit the big time on a forum in Korea. After much deliberation, it was time to throw fashion growth hacks, at completely unprepared Koreans. Over the next 7 weeks we launched different 3D digital look-books. Each showcasing a collection and giving users a new way to browse and try outfits online. 
-    <br></br>
-    To begin with engagement was incredible, but gradually users lost interest and we decided to give it one last hurrah, then pull the project entirely.
-  </p>
-
-  <p class="text-paragraph two-column text-right-column">
-    Now it was time to dial everything up to 11, cutesy  mascots were finally on the agenda. They had performed well in user testing and were a huge part of Korean messaging apps already. So hastily, I began drawing mascots on a trackpad at speeds i thought near impossible. The world needed this and it was down to me to deliver it. 
-    <br></br>
-    Our final launch was magical, yet we still weren’t getting the engagement we needed. I think it’s important to highlight that this may have been a world first, it's just Korea wasn’t quite ready. But much like a phoneix rising from the ashes, the mascots got the second chance they deserved. When me and my mate Dem decided to make an iOS sticker pack.</p>
-
-</div> -->
-
-
-
-
-
-
-<!-- <div id="drop-quote" class="drop-quote pedal ">
-  <h3 class="">"I wanted to empower cyclists to ride their bikes not scare the shit out of them"</h3>
-</div> -->
-
-
-</section>
-
-
-
-
-
-<!-- Marquee Loop -->
-  <script type="text/javascript" src="js/case-study.js"></script>
-
-<!-- Analytics -->
+  <!-- Analytics -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-21573491-2', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
@@ -163,5 +108,4 @@
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
 </body>
-
 </html>
