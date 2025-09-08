@@ -741,12 +741,14 @@ color:#83E9FF;
 /* CULTURE LABS */
 
 .culturelabs {
-  background-color: #F51767;
+  background-color: #042239;
 }
 
 .culturelabs .project-banner{
   background-color: #042239;
-  color: #e2eef8;
+  color: #ffffff;
+  mix-blend-mode: normal;
+
 }
 
 .culturelabs .project-hero {
@@ -759,23 +761,12 @@ color:#83E9FF;
 
 .culturelabs span {
   color: #ffffff;
-    mix-blend-mode: difference;
+  mix-blend-mode: difference;
  
 }
 
 
-.sandyfm h2 {
-  color: #FFF0A7;
-  
-}
-.sandyfm span {
-  color: #9EE1FF;
-  mix-blend-mode: difference;
-}
 
-.sandyfm {
-  background-color:  #2B353A;
-}
 
 .farfetch h2 {
   color: #3D0062;
